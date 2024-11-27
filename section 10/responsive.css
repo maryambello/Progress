@@ -1,0 +1,22 @@
+h1 {
+  text-align: center;
+}
+nav {
+  font-size: 1.5em;
+}
+ul,
+li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 100px) {
+  h1 {
+    color: purple;
+  }
+}
+@media (min-width: 500px) {
+  h1 {
+    color: red;
+  }
+}
